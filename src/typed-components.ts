@@ -8,10 +8,10 @@ interface IThemeInterface {
 const {
   default: styled,
   css,
-  injectionGlobal,
+  injectGlobal,
   keyframes,
   ThemeProvider,
 } = styledComponents as ThemeStyledComponentsModule<IThemeInterface>;
 
-export { css, injectionGlobal, keyframes, ThemeProvider };
+export { css, injectGlobal, keyframes, ThemeProvider };
 export default styled;
