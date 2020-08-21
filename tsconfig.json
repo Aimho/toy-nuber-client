@@ -2,9 +2,9 @@
   "compilerOptions": {
     "target": "es5",
     "lib": [
+      "ES6",
       "dom",
-      "dom.iterable",
-      "esnext"
+      "ESNext.AsyncIterable"
     ],
     "allowJs": true,
     "skipLibCheck": true,
