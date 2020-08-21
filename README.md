@@ -11,3 +11,7 @@ Client for the (N)Uber Clone Course on Nomad Academy. ReactJS, Apollo, Typescrip
 
 - Apollo Client를 생성할 때, request function을 설정할 수 있다. <br />
   request function의 operation에 token을 호출하는 작업을 해주면 다른 곳에서 api 호출 시 매번 token을 header에 넣지 않아도 자동으로 적용된다.
+
+# Container/Presenter Component
+
+- Component에 `state`가 있거나 `data`가 연결되어 있다면 Container Component, 없다면 Presenter Component
